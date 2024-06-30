@@ -1,0 +1,89 @@
+/* Luxurious three-color theme for diamond business website */
+body {
+    background-color: #8A8A8A; /* Deep Blue */
+    text-align: center;
+    color: #F8F9FA; /* Off-White for text */
+}
+
+.navbar {
+    background-color: #1B3B6F; /* Deep Blue */
+    color: #FFFFFF; /* White for text */
+}
+
+a {
+    color: #D4AF37; /* Gold for links */
+}
+
+a:hover {
+    color: #B8860B; /* Darker Gold for hover */
+}
+
+.card {
+    background-color: #F8F9FA; /* Off-White for card background */
+    border: 1px solid #E0E0E0; /* Light gray border for subtle definition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #1B3B6F; /* Deep Blue text */
+}
+
+.card-title {
+    font-size: 1.4em; /* Larger font size */
+    font-weight: bold; /* Make the font bold */
+    color: #1B3B6F; /* Deep Blue */
+}
+
+.card-body h5 {
+    font-weight: bold; /* Make the headings in card body bold */
+    color: #1B3B6F; /* Deep Blue */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #1B3B6F; /* Deep Blue */
+    color: #FFFFFF; /* White */
+    padding: 20px;
+}
+
+/* Additional styling for buttons and highlights */
+.btn-primary {
+    background-color: #D4AF37; /* Gold */
+    border-color: #D4AF37; /* Gold */
+    color: #FFFFFF; /* White */
+}
+
+.btn-primary:hover {
+    background-color: #B8860B; /* Darker Gold */
+    border-color: #B8860B; /* Darker Gold */
+}
+
+/* Adding custom styles for form elements */
+input, select, textarea {
+    border: 1px solid #E0E0E0; /* Light gray border */
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1em;
+    background-color: #F8F9FA; /* Off-White background */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #D4AF37; /* Gold border on focus */
+    outline: none;
+}
+
+/* Styling for the form submit button */
+input[type="submit"], .btn-submit {
+    background-color: #D4AF37; /* Gold */
+    border: none;
+    color: #FFFFFF; /* White text */
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, .btn-submit:hover {
+    background-color: #B8860B; /* Darker Gold on hover */
+}

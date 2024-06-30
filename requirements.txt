@@ -1,0 +1,18 @@
+pandas
+scikit-learn
+numpy
+seaborn
+ipykernel
+Flask
+#this is more stable version
+mlflow==2.11.3
+pendulum==2.1.2
+dvc
+apache-airflow
+Flask-Session==0.5.0
+pymongo
+xgboost
+connexion==2.14.2
+
+
+-e .
